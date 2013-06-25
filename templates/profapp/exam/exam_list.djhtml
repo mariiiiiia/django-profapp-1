@@ -40,4 +40,5 @@ All exams
 <p>
   <a class="btn btn-success" href="{% url 'exam_create' %}"><i class="icon-plus icon-white"></i> New Exam</a>
 </p>
+
 {% endblock %}

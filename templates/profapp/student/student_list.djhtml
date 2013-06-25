@@ -33,7 +33,7 @@ Students
   {% endfor %}
 </table>
 <p>
-  <a class="btn btn-success" href="{% url 'student_create' %}"><i class="icon-plus icon-white"></i> New User</a>
+  <a class="btn btn-success" href="{% url 'student_create' %}"><i class="icon-plus icon-white"></i> New Student</a>
 </p>
 
 {% endblock %}

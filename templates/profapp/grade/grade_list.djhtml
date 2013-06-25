@@ -42,7 +42,7 @@ Grades
     <td><a href="{% url 'subject_year_view' grade.exam.subject.pk %}">{{ grade.exam.subject.name }}</a></td>
 {% endif %}
     <td>{{ grade.exam.subject.year }}</td>
-    <td>{{ grade.exam.get_type_display }}</td>
+    <td><a href="{% url 'exam_details' grade.exam.pk %}">{{ grade.exam.get_type_display }}</a></td>
     <td>{{ grade.grade }}</td>
     <td>
       <div class="btn-group">

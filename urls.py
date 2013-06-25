@@ -29,6 +29,7 @@ urlpatterns = patterns('',
     url(r'^grades/$', grade.GradeListView.as_view(), name="grade_list"),
     url(r'^grades/(?P<pk>\d+)/update/$', grade.GradeUpdateView.as_view(), name="update_grade"),
     url(r'^grades/(?P<pk>\d+)/delete/$', grade.GradeDeleteView.as_view(), name="delete_grade"),
+#    url(r'^grades/graph/$', grade.GradeGraph.as_view(), name="grade_graph"),
 
     url(r'^home/$', student.StudentListView.as_view(), name="profapp_home"),
 )
