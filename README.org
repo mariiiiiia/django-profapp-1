@@ -8,9 +8,9 @@
    $ virtualenv --no-site-packages .
    #+END_EXAMPLE
 
-   Install =django= and =django-bootsrap-toolkit=:
+   Install =django-1.6= and =django-bootsrap-toolkit=:
    #+BEGIN_EXAMPLE
-   $ bin/pip install django django-bootstrap-toolkit
+   $ bin/pip install django===1.6.11 django-bootstrap-toolkit
    #+END_EXAMPLE
   EDIT: DJANGO VERSION 1.6 
   
