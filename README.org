@@ -12,7 +12,8 @@
    #+BEGIN_EXAMPLE
    $ bin/pip install django django-bootstrap-toolkit
    #+END_EXAMPLE
-
+  EDIT: DJANGO VERSION 1.6 
+  
    Create a django project and clone this project into it:
    #+BEGIN_EXAMPLE
    $ bin/django-admin.py startproject ProfessorSite
