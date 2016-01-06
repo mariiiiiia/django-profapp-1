@@ -12,7 +12,6 @@
    #+BEGIN_EXAMPLE
    $ bin/pip install django===1.6.11 django-bootstrap-toolkit
    #+END_EXAMPLE
-  EDIT: DJANGO VERSION 1.6 
   
    Create a django project and clone this project into it:
    #+BEGIN_EXAMPLE
