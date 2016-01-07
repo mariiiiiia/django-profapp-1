@@ -3,9 +3,10 @@
   management.
 
 ** Install
-   Create a virtualenv:
+   Create a virtualenv and activate it:
    #+BEGIN_EXAMPLE
    $ virtualenv --no-site-packages .
+   $ source bin/activate
    #+END_EXAMPLE
 
    Install =django-1.6= and =django-bootsrap-toolkit=:
